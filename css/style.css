@@ -7,6 +7,18 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: var(--secondary-color);
+}
+
+.my-bg-green {
+  background-color: var(--secondary-color);
+}
+
+.my-text-white {
+  color: white;
+}
+
 .my-section {
   padding: 6rem 0;
 }
@@ -72,10 +84,11 @@ body {
 }
 
 #my-contact {
-  height: 10rem;
 }
 
 #my-footer {
+  padding: 5rem 0;
+  color: #fff;
   background-color: var(--primary-color);
 }
 
