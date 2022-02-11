@@ -54,11 +54,13 @@ body {
   width: 15rem;
 }
 
-#my-jumbotron .my-divider-line {
+#my-jumbotron .my-divider-line,
+#my-about .my-divider-line {
   background-color: #fff;
 }
 
-#my-jumbotron .my-divider-icon {
+#my-jumbotron .my-divider-icon,
+#my-about .my-divider-icon {
   color: #fff;
 }
 
@@ -66,7 +68,6 @@ body {
 }
 
 #my-about {
-  height: 10rem;
   background-color: var(--secondary-color);
 }
 
