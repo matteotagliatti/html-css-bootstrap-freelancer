@@ -3,20 +3,55 @@
   --secondary-color: #1abc9c;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .my-section {
   /* padding: 6rem 0; */
 }
 
 #my-nav {
-  /* padding: 1.5rem 0; */
-  height: 5rem;
+  padding: 1.5rem 0;
   background-color: var(--primary-color);
 }
 
 #my-jumbotron {
-  /* padding: 8rem 0 6rem 0; */
-  height: 45rem;
+  padding: 8rem 0 6rem 0;
   background-color: var(--secondary-color);
+}
+
+#my-jumbotron img {
+  width: 15rem;
+}
+
+#my-jumbotron .my-divider {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-jumbotron .my-divider-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+#my-jumbotron .my-divider-icon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+#my-jumbotron .my-divider .my-divider-line:first-child {
+  margin-right: 1rem;
+}
+
+#my-jumbotron .my-divider .my-divider-line:last-child {
+  margin-left: 1rem;
 }
 
 #my-portfolio {
