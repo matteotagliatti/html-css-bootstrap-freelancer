@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #1abc9c;
+}
+
+.my-section {
+  /* padding: 6rem 0; */
+}
+
+#my-nav {
+  /* padding: 1.5rem 0; */
+  height: 5rem;
+  background-color: var(--primary-color);
+}
+
+#my-jumbotron {
+  /* padding: 8rem 0 6rem 0; */
+  height: 45rem;
+  background-color: var(--secondary-color);
+}
+
+#my-portfolio {
+  height: 10rem;
+}
+
+#my-about {
+  height: 10rem;
+  background-color: var(--secondary-color);
+}
+
+#my-contact {
+  height: 10rem;
+}
+
+#my-footer {
+  background-color: var(--primary-color);
+}
+
+#my-bottom-footer {
+  background-color: #1a252f;
+}
