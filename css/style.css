@@ -23,6 +23,16 @@ a {
   padding: 6rem 0;
 }
 
+.my-btn-social {
+  border-radius: 50%;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .my-divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
