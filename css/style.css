@@ -11,19 +11,25 @@ body {
   font-family: sans-serif;
 }
 
+footer {
+  padding: 5rem 0;
+  background-color: var(--primary-color);
+}
+
 footer a {
   color: var(--secondary-color);
 }
 
-/* Classes */
+footer a:hover {
+  color: white;
+}
 
-.my-bg-green {
+button[type="submit"] {
+  color: white;
   background-color: var(--secondary-color);
 }
 
-.my-text-white {
-  color: white;
-}
+/* Classes */
 
 .my-section {
   padding: 6rem 0;
@@ -86,6 +92,16 @@ footer a {
   width: 15rem;
 }
 
+#my-about {
+  background-color: var(--secondary-color);
+}
+
+#my-bottom-footer {
+  background-color: #1a252f;
+}
+
+/* ID - Divider */
+
 #my-jumbotron .my-divider-line,
 #my-about .my-divider-line {
   background-color: #fff;
@@ -94,18 +110,4 @@ footer a {
 #my-jumbotron .my-divider-icon,
 #my-about .my-divider-icon {
   color: #fff;
-}
-
-#my-about {
-  background-color: var(--secondary-color);
-}
-
-#my-footer {
-  padding: 5rem 0;
-  color: #fff;
-  background-color: var(--primary-color);
-}
-
-#my-bottom-footer {
-  background-color: #1a252f;
 }
