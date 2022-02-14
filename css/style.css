@@ -1,15 +1,21 @@
+/* Variables */
+
 :root {
   --primary-color: #2c3e50;
   --secondary-color: #1abc9c;
 }
 
+/* General */
+
 body {
   font-family: sans-serif;
 }
 
-a {
+footer a {
   color: var(--secondary-color);
 }
+
+/* Classes */
 
 .my-bg-green {
   background-color: var(--secondary-color);
@@ -63,7 +69,7 @@ a {
 }
 
 #my-nav {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   background-color: var(--primary-color);
 }
 
@@ -86,14 +92,8 @@ a {
   color: #fff;
 }
 
-#my-portfolio {
-}
-
 #my-about {
   background-color: var(--secondary-color);
-}
-
-#my-contact {
 }
 
 #my-footer {
