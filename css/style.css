@@ -84,7 +84,7 @@ button[type="submit"] {
 }
 
 #my-jumbotron {
-  padding: 8rem 0 6rem 0;
+  padding: 8rem 0 4rem 0;
   background-color: var(--secondary-color);
 }
 
