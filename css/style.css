@@ -39,6 +39,8 @@ footer a {
   align-items: center;
 }
 
+/* Classes - Divider */
+
 .my-divider {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -67,6 +69,8 @@ footer a {
 .my-divider .my-divider-line:last-child {
   margin-left: 1rem;
 }
+
+/* ID */
 
 #my-nav {
   padding: 1rem 0;
